@@ -1,112 +1,268 @@
-# Personal Portfolio Website — HTML & CSS Internship Project
+<div align="center">
 
-**Project Title:** Personal Portfolio Website  
-**Author:** Dheeraj Kumar  
-**Mobile:** +91 93346 27750  
-**Email:** dheerajkumardk98765@gmail.com  
-**LinkedIn:** [https://www.linkedin.com/in/dheeraj-kumar-753401415](https://www.linkedin.com/in/dheeraj-kumar-753401415)  
-**GitHub:** [https://github.com/dheeraj-1925](https://github.com/dheeraj-1925)  
-**Technologies:** HTML5 & CSS3 only (Strictly zero JavaScript, React, Bootstrap, or backend code)  
-**Submission Deadline:** 16 October 2026  
-**Level:** Beginner-Friendly Internship Project  
+# &lt;DK/&gt; Dheeraj Kumar — Personal Portfolio Website
 
----
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Responsive](https://img.shields.io/badge/Responsive-Design-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
+[![No JS](https://img.shields.io/badge/Zero-JavaScript-22c55e?style=for-the-badge)](#)
+[![EWB Internship](https://img.shields.io/badge/EWB-HTML%20%26%20CSS%20Internship-8b5cf6?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Status-Available%20for%20Internship-22c55e?style=for-the-badge)](#)
 
-## 1. Project Description (Submission Ready)
-> This personal portfolio website was designed and engineered using semantic HTML5 and modern CSS3 to showcase my academic background, technical skills, and web projects in a clean, accessible, and professional format. It features a sticky navigation bar with section anchors, a hero banner with live status badge and quick contact pills, an about section detailing my undergraduate education and internship track, a structured technical skills grid with proficiency meters, and four realistic project showcase cards. Built strictly without JavaScript or UI frameworks, the layout leverages CSS Flexbox, CSS Grid, and custom CSS variables to deliver full cross-device responsiveness from mobile screens to wide desktop viewports. Every interactive element incorporates thoughtful hover and focus states while preserving valid document hierarchy and avoiding horizontal scrollbars.
+> A **clean, professional, and fully responsive** personal portfolio website built with **pure HTML5 & CSS3** — zero JavaScript, zero frameworks, zero dependencies.
 
----
+**[🚀 View Live »](https://dheeraj-1925.github.io/HTML-CSS/)** &nbsp;·&nbsp; **[📂 Browse Code »](https://github.com/dheeraj-1925/HTML-CSS/tree/main)** &nbsp;·&nbsp; **[🐛 Report Bug »](https://github.com/dheeraj-1925/HTML-CSS/issues)**
 
-## 2. Required Website Sections Implemented
-
-1. **Header / Navigation:**
-   - Brand logo with developer symbol (`<DK/> Dheeraj Kumar.`).
-   - Sticky navbar containing working anchor jump links to `#home`, `#about`, `#skills`, `#projects`, and `#contact`.
-   - Direct CTA navigation button (`Get In Touch`).
-2. **Hero / Home (`#home`):**
-   - Personal status pill: `Available for Internship & Junior Roles` with animated pulse dot.
-   - Headline: *Hi, I'm Dheeraj Kumar*.
-   - Professional role: *Frontend Developer & Computer Science Student*.
-   - Introductory bio and direct quick contact pills (Mobile: `+91 93346 27750`, Email: `dheerajkumardk98765@gmail.com`, LinkedIn, GitHub).
-   - Triple Call-to-Action (CTA) buttons linking to `#projects`, `#contact`, and `#about`.
-   - Developer avatar illustration with live availability badge.
-   - Quick highlights: 4+ Featured Projects, 100% Pure HTML/CSS, Fully Responsive, Accessible Markup.
-3. **About Me (`#about`):**
-   - Personal biography card explaining passion for frontend engineering and clean code.
-   - Academic education card detailing Bachelor of Technology in Computer Science (2023–2027) and EWB HTML/CSS Internship.
-   - Core focus & interests card covering modern CSS architecture, responsive design, and web accessibility (a11y).
-4. **Skills (`#skills`):**
-   - 6 primary skill cards with icons and proficiency bars: HTML5 Semantic Markup (92%), CSS3 Styling & Architecture (88%), Flexbox & CSS Grid (90%), Responsive Web Design (88%), Git & GitHub (82%), and Web Accessibility (80%).
-   - Supplementary skill chips tag cloud highlighting developer tooling, DevTools, and Figma workflows.
-5. **Projects (`#projects`):**
-   - 4 comprehensive project cards with custom SVG preview illustrations, titles, descriptive summaries, technology tags, and action links:
-     - **NovaKart:** Modern E-Commerce Storefront (HTML5, CSS Grid, Flexbox, Responsive).
-     - **TaskFlow:** Productivity & Habit Dashboard (HTML5 Semantic, CSS Grid, CSS Variables, UI/UX Layout).
-     - **Clima:** Weather & City Explorer Landing Page (HTML5, CSS3 Gradients, Flexbox, Media Queries).
-     - **Personal Developer Portfolio:** Pure HTML5 & CSS3 website adhering to modern web standards.
-6. **Contact (`#contact`):**
-   - Direct phone number: `+91 93346 27750` (`tel:+919334627750`).
-   - Direct email address: `dheerajkumardk98765@gmail.com` (`mailto:dheerajkumardk98765@gmail.com`).
-   - Verified LinkedIn Profile link: `https://www.linkedin.com/in/dheeraj-kumar-753401415`.
-   - Verified GitHub Profile link: `https://github.com/dheeraj-1925`.
-   - Location note: India (Open to Remote & On-Site Opportunities).
-   - Visual demo contact form with fields for Name, Email, Phone, Subject, Message, and a clear disclaimer explaining that it is a visual demo component only.
-7. **Footer:**
-   - Brand logo (`<DK/> Dheeraj Kumar`).
-   - Quick contact strip (Phone, Email, LinkedIn).
-   - Section navigation links.
-   - Copyright line: `© 2026 Dheeraj Kumar. All rights reserved.`
-   - Smooth "Back to Top" jump link.
+</div>
 
 ---
 
-## 3. Technical & CSS Architecture Highlights
+## 📋 Table of Contents
 
-- **CSS Variables:** Centralized design tokens for colors (`--color-primary`, `--color-primary-dark`, `--color-accent`, `--color-success`, `--color-bg-page`, etc.), shadows, transitions, and radius.
-- **Modern Layouts:**
-  - **Flexbox:** Sticky navigation header, hero section layout, CTA buttons, highlight stats, quick contact pills, and contact panels.
-  - **CSS Grid:** About me 3-column card grid, skills matrix (2-3 columns), and projects showcase grid (2-column balanced layout).
-- **Responsiveness:**
-  - Desktop: 2-column project cards with 1140px max-width container.
-  - Tablet (`max-width: 992px`): Centered hero, single column about me, 2-column skills and projects.
-  - Mobile (`max-width: 680px` & `380px`): Single-column cards, full-width touch-friendly buttons, wrapped navigation, zero horizontal scrollbars.
-- **Accessibility & UX:**
-  - Accessible contrast ratios, focus rings (`:focus-visible`), smooth scrolling (`scroll-behavior: smooth`), and descriptive `alt` tags on all images.
+- [📖 About The Project](#-about-the-project)
+- [✨ Features](#-features)
+- [🗂️ Project Structure](#️-project-structure)
+- [📄 Sections](#-sections)
+- [🎨 Design System & CSS Architecture](#-design-system--css-architecture)
+- [📱 Responsive Breakpoints](#-responsive-breakpoints)
+- [✅ Internship Checklist](#-internship-checklist)
+- [🚀 Getting Started](#-getting-started)
+- [👤 Author](#-author)
+- [📜 License](#-license)
 
 ---
 
-## 4. Folder Structure
+## 📖 About The Project
+
+This is **Dheeraj Kumar's Personal Portfolio Website** — a submission for the **EWB HTML & CSS Internship Project**. Designed and engineered using semantic HTML5 and modern CSS3 to showcase academic background, technical skills, and web development projects in a clean, accessible, and professional format.
+
+> **Strict Constraint:** Built with **HTML5 and CSS3 only** — no JavaScript, no React, no Bootstrap, no backend, no database.
 
 ```
-Dheeraj_HTML_CSS_Portfolio/
-├── index.html                  # Semantic HTML5 structure
-├── style.css                   # Custom CSS3 styling & responsive media queries
-├── README.md                   # Project documentation & submission guide
-├── images/                     # Self-contained visual assets
-│   ├── profile.svg             # Developer avatar illustration
-│   ├── project-1.svg           # NovaKart storefront mockup
-│   ├── project-2.svg           # TaskFlow dashboard mockup
-│   ├── project-3.svg           # Clima weather dashboard mockup
-│   └── project-4.svg           # Portfolio website mockup
-└── screenshots/                # Project deliverables
-    ├── desktop.png             # Desktop view screenshot
-    └── mobile.png              # Mobile view screenshot
+Project Title  : Personal Portfolio Website
+Author         : Dheeraj Kumar
+Role           : Frontend Developer & Computer Science Student
+Technologies   : HTML5 & CSS3 (strictly zero JS / frameworks)
+Internship     : EWB HTML & CSS Internship
+Deadline       : 16 October 2026
 ```
 
 ---
 
-## 5. Final Checklist Verification
+## ✨ Features
 
-- [x] Created `index.html` and separate `style.css`.
-- [x] Page includes Home, About, Skills, Projects, Contact, and Footer sections.
-- [x] Includes at least 5 skills (6 featured cards + 8 chips included).
-- [x] Includes at least 2 projects (4 featured project cards included).
-- [x] All navigation links jump to the correct section IDs.
-- [x] CSS uses Flexbox and Grid with responsive media queries for smaller screens.
-- [x] Website is readable and usable on desktop, tablet, and mobile with no horizontal overflow.
-- [x] Images load correctly and have suitable `alt` text.
-- [x] Contact form includes explicit notice that it is a visual demo only.
-- [x] Contact information updated: Mobile `+91 93346 27750`, Email `dheerajkumardk98765@gmail.com`, LinkedIn `https://www.linkedin.com/in/dheeraj-kumar-753401415`.
-- [x] No JavaScript, React, Bootstrap, or backend code used.
-- [x] Captured `desktop.png` and `mobile.png` screenshots.
-- [x] Compressed submission archive prepared (`Dheeraj_HTML_CSS_Portfolio.zip`).
+| Feature | Details |
+|---|---|
+| 🎨 **Professional Theme** | Modern, clean palette with custom CSS variables |
+| 📱 **Fully Responsive** | Pixel-perfect on mobile (380px), tablet (992px), and desktop |
+| 🟢 **Live Status Pill** | Animated pulse dot — "Available for Internship & Junior Roles" |
+| 💡 **CSS Variables** | Centralized design tokens for colors, shadows, transitions, radius |
+| 🃏 **Skill Cards** | 6 skill cards with proficiency bars + 8 supplementary chip tags |
+| 🗂️ **4 Project Cards** | Custom SVG previews, tech tags, titles, and descriptions |
+| 🎞️ **Hover & Focus States** | Smooth transitions on all interactive elements |
+| 🧩 **Flexbox + CSS Grid** | Modern layout for all sections |
+| ♿ **Web Accessible** | Semantic HTML, `alt` text, `aria-label`, `:focus-visible` rings |
+| 🔗 **Smooth Scroll** | Native CSS `scroll-behavior: smooth` + scroll padding |
+| 📩 **Contact Form** | Styled visual demo with clear disclaimer (no backend) |
+| 🏷️ **SEO-Ready** | `<title>`, `<meta description>`, viewport, charset |
+| 🔝 **Back to Top** | Clean anchor link in footer |
+
+---
+
+## 🗂️ Project Structure
+
+```
+HTML-CSS/
+│
+├── 📄 index.html                  ← Semantic HTML5 structure (all sections)
+├── 🎨 style.css                   ← Custom CSS3 styling & responsive media queries
+├── 📄 README.md                   ← Project documentation (this file)
+│
+├── 📁 images/
+│   ├── profile.svg                ← Developer avatar illustration
+│   ├── project-1.svg              ← NovaKart storefront mockup
+│   ├── project-2.svg              ← TaskFlow dashboard mockup
+│   ├── project-3.svg              ← Clima weather dashboard mockup
+│   └── project-4.svg              ← Portfolio website mockup
+│
+└── 📁 screenshots/
+    ├── desktop.png                ← Desktop view screenshot
+    └── mobile.png                 ← Mobile view screenshot
+```
+
+---
+
+## 📄 Sections
+
+All **7 required sections** from the project brief are fully implemented:
+
+### 1. 🔝 Header / Navigation
+Sticky top navbar with the brand logo **`<DK/> Dheeraj Kumar.`** and anchor jump links to all sections. Includes a direct **"Get In Touch"** CTA button in the nav.
+
+### 2. 🦸 Hero / Home
+- 🟢 **Status pill** — *"Available for Internship & Junior Roles"* with animated pulse dot
+- Headline: *Hi, I'm **Dheeraj Kumar***
+- Role: *Frontend Developer & Computer Science Student*
+- Quick contact strip: Phone · Email · LinkedIn · GitHub
+- Triple CTA buttons: View Projects · Contact Me · About My Background
+- Highlight stats: **4+ Projects · 100% Pure HTML/CSS · Mobile Responsive · a11y**
+- Developer avatar card with availability badge
+
+### 3. 👤 About Me
+Three-column card grid:
+- 📝 **Personal Bio** — passion for frontend engineering and clean code
+- 🎓 **Education** — B.Tech Computer Science (2023–2027) + EWB Internship
+- 🎯 **Core Focus** — Modern CSS architecture, responsive design, web accessibility
+
+### 4. 🛠️ Skills
+
+**6 Skill Cards with proficiency bars:**
+
+| Skill | Proficiency |
+|---|---|
+| HTML5 Semantic Markup | 92% |
+| CSS3 Styling & Architecture | 88% |
+| Flexbox & CSS Grid | 90% |
+| Responsive Web Design | 88% |
+| Git & GitHub | 82% |
+| Web Accessibility (a11y) | 80% |
+
+**+ 8 Skill Chips:** VS Code · Chrome DevTools · Figma · CSS Animations · BEM Methodology · Web Performance · Cross-Browser Testing · CSS Custom Properties
+
+### 5. 🗂️ Projects
+
+**4 Project Cards with custom SVG illustrations:**
+
+| Project | Technologies |
+|---|---|
+| **NovaKart** — Modern E-Commerce Storefront | `HTML5` `CSS Grid` `Flexbox` `Responsive` |
+| **TaskFlow** — Productivity & Habit Dashboard | `HTML5 Semantic` `CSS Grid` `CSS Variables` `UI/UX Layout` |
+| **Clima** — Weather & City Explorer Landing Page | `HTML5` `CSS3 Gradients` `Flexbox` `Media Queries` |
+| **Personal Developer Portfolio** — This Website | `HTML5` `CSS3` `Flexbox` `CSS Grid` `Accessible` |
+
+### 6. 📬 Contact
+- 📞 Phone: `+91 93346 27750`
+- 📧 Email: `dheerajkumardk98765@gmail.com`
+- 💼 LinkedIn: [dheeraj-kumar-753401415](https://www.linkedin.com/in/dheeraj-kumar-753401415)
+- 🐙 GitHub: [dheeraj-1925](https://github.com/dheeraj-1925)
+- 📍 Location: India *(Open to Remote & On-Site Opportunities)*
+- Styled contact form *(visual demo — clearly labelled, no backend)*
+
+### 7. 🔻 Footer
+Brand logo · quick contact strip · section nav links · copyright line · Back to Top link.
+
+---
+
+## 🎨 Design System & CSS Architecture
+
+### Colour Tokens (CSS Variables)
+
+| Variable | Usage |
+|---|---|
+| `--color-primary` | Primary accent colour |
+| `--color-primary-dark` | Darker accent for hover states |
+| `--color-accent` | Secondary highlight colour |
+| `--color-success` | Green status / availability |
+| `--color-bg-page` | Main page background |
+| `--color-bg-card` | Card / section background |
+| `--color-text-primary` | Main body text |
+| `--color-text-muted` | Secondary / label text |
+
+### CSS Features Used
+
+```css
+/* Design Tokens */      :root { --color-primary: ...; --radius-md: ...; }
+/* Flexbox */            display: flex; align-items: center; gap: ...;
+/* CSS Grid */           display: grid; grid-template-columns: repeat(auto-fit, ...);
+/* Media Queries */      @media (max-width: 992px) { ... }
+/* Animations */         @keyframes pulse { ... }  animation: pulse 2s infinite;
+/* Pseudo-classes */     :hover, :focus, :focus-visible, :nth-child()
+/* Pseudo-elements */    ::before, ::after, ::placeholder
+/* Clamp / Fluid */      font-size: clamp(1.8rem, 4vw, 3rem);
+/* Backdrop Filter */    backdrop-filter: blur(...)
+/* Scroll Behaviour */   scroll-behavior: smooth; scroll-padding-top: ...;
+/* Focus Rings */        :focus-visible { outline: ...; }
+```
+
+---
+
+## 📱 Responsive Breakpoints
+
+```
+🖥️  Desktop        →  > 992px    Full layout: 2-column projects, 3-column about
+📱  Tablet         →  ≤ 992px    Centered hero, single-column about, 2-column skills
+📲  Mobile         →  ≤ 680px    Single-column all, full-width buttons, wrapped nav
+📲  Small Mobile   →  ≤ 380px    Tighter font sizes, compact padding, no overflow
+```
+
+> ✅ Zero horizontal scrollbars at any viewport width.
+
+---
+
+## ✅ Internship Checklist
+
+- [x] Created `index.html` and separate `style.css`
+- [x] Page includes Home, About, Skills, Projects, Contact, and Footer sections
+- [x] Includes at least 5 skills — **6 skill cards + 8 chip tags** ✔
+- [x] Includes at least 2 projects — **4 project cards** ✔
+- [x] All navigation links jump to the correct section IDs
+- [x] CSS uses Flexbox **and** Grid with responsive media queries
+- [x] Readable and usable on desktop, tablet, and mobile — no horizontal overflow
+- [x] All images have descriptive `alt` text
+- [x] Contact form clearly labelled as visual demo only
+- [x] No JavaScript, React, Bootstrap, or backend code used
+- [x] Desktop and mobile screenshots captured
+- [x] Files organised in correct folder structure at repo root
+- [x] Pushed to public GitHub repository
+
+---
+
+## 🚀 Getting Started
+
+No build tools. No npm. No setup. Just open and go!
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/dheeraj-1925/HTML-CSS.git
+
+# 2. Enter the folder
+cd HTML-CSS
+
+# 3. Open in browser — done! ✅
+start index.html        # Windows
+open index.html         # macOS
+xdg-open index.html     # Linux
+```
+
+Or simply **drag and drop** `index.html` into any modern browser.
+
+---
+
+## 👤 Author
+
+<div align="center">
+
+### Dheeraj Kumar
+#### Frontend Developer & Computer Science Student
+
+[![GitHub](https://img.shields.io/badge/GitHub-dheeraj--1925-181717?style=for-the-badge&logo=github)](https://github.com/dheeraj-1925)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dheeraj-kumar-753401415)
+[![Email](https://img.shields.io/badge/Email-dheerajkumardk98765%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dheerajkumardk98765@gmail.com)
+
+</div>
+
+---
+
+## 📜 License
+
+This project is submitted as part of the **EWB HTML & CSS Internship** program. All content and code is original work by **Dheeraj Kumar**.
+
+---
+
+<div align="center">
+
+Made with ❤️ using **HTML5** & **CSS3** only &nbsp;|&nbsp; EWB HTML & CSS Internship 2026
+
+⭐ **Star this repo** if you found it helpful!
+
+</div>
