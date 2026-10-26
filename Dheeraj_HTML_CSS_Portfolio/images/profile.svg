@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbd2ac" />
+      <stop offset="100%" stop-color="#f5b884" />
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#avatarBg)" />
+  
+  <!-- Subtle decorative rings -->
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#60a5fa" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8 8" />
+
+  <!-- Shoulders & Torso -->
+  <path d="M 90 380 C 100 290 140 270 200 270 C 260 270 300 290 310 380 Z" fill="url(#shirtGrad)" filter="url(#shadow)" />
+  <!-- Shirt collar -->
+  <polygon points="175,270 200,310 185,270" fill="#334155" />
+  <polygon points="225,270 200,310 215,270" fill="#334155" />
+  <polygon points="185,270 200,305 215,270" fill="#ffffff" />
+
+  <!-- Neck -->
+  <rect x="180" y="220" width="40" height="60" rx="8" fill="#f5b884" />
+  <path d="M 180 235 Q 200 250 220 235 L 220 260 L 180 260 Z" fill="#e29b61" opacity="0.35" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="175" rx="65" ry="75" fill="url(#faceGrad)" filter="url(#shadow)" />
+
+  <!-- Hair (Base and back) -->
+  <path d="M 130 165 C 125 110 160 85 200 85 C 245 85 275 110 270 165 C 260 120 235 105 200 105 C 165 105 140 120 130 165 Z" fill="#1e1b18" />
+  <!-- Hair top & styling -->
+  <path d="M 130 150 C 130 100 165 80 205 80 C 255 80 272 105 270 150 C 250 115 220 100 180 108 C 150 115 138 135 130 150 Z" fill="#18181b" />
+
+  <!-- Ears -->
+  <circle cx="135" cy="180" r="14" fill="#f5b884" />
+  <circle cx="265" cy="180" r="14" fill="#f5b884" />
+
+  <!-- Eyebrows -->
+  <path d="M 155 145 Q 170 140 185 146" fill="none" stroke="#27272a" stroke-width="4" stroke-linecap="round" />
+  <path d="M 215 146 Q 230 140 245 145" fill="none" stroke="#27272a" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Eyes -->
+  <ellipse cx="170" cy="162" rx="6" ry="7" fill="#18181b" />
+  <ellipse cx="230" cy="162" rx="6" ry="7" fill="#18181b" />
+  <circle cx="168" cy="160" r="2" fill="#ffffff" />
+  <circle cx="228" cy="160" r="2" fill="#ffffff" />
+
+  <!-- Glasses (Stylish modern frames) -->
+  <rect x="150" y="148" width="38" height="28" rx="8" fill="none" stroke="#0f172a" stroke-width="3.5" />
+  <rect x="212" y="148" width="38" height="28" rx="8" fill="none" stroke="#0f172a" stroke-width="3.5" />
+  <path d="M 188 158 L 212 158" fill="none" stroke="#0f172a" stroke-width="3.5" />
+  <path d="M 150 158 L 136 160" fill="none" stroke="#0f172a" stroke-width="3" />
+  <path d="M 250 158 L 264 160" fill="none" stroke="#0f172a" stroke-width="3" />
+
+  <!-- Nose -->
+  <path d="M 200 165 L 196 182 L 204 182" fill="none" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Smile -->
+  <path d="M 185 198 Q 200 214 215 198" fill="none" stroke="#b45309" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Code Badge / Icon floating on bottom right -->
+  <g transform="translate(270, 270)">
+    <circle cx="28" cy="28" r="32" fill="#ffffff" filter="url(#shadow)" />
+    <circle cx="28" cy="28" r="28" fill="#2563eb" />
+    <text x="28" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+</svg>

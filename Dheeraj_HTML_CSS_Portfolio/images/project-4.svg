@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="p4Hero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <filter id="p4Shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="600" height="380" rx="16" fill="#f8fafc" />
+
+  <!-- Browser Frame -->
+  <g transform="translate(30, 25)" filter="url(#p4Shadow)">
+    <rect width="540" height="330" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" />
+
+    <!-- Browser Bar -->
+    <rect width="540" height="40" rx="12" fill="#f1f5f9" />
+    <path d="M 0 40 L 540 40" stroke="#cbd5e1" stroke-width="1.5" />
+    <circle cx="24" cy="20" r="5" fill="#ef4444" />
+    <circle cx="42" cy="20" r="5" fill="#f59e0b" />
+    <circle cx="60" cy="20" r="5" fill="#10b981" />
+    <rect x="90" y="10" width="360" height="20" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="105" y="24" font-family="monospace" font-size="11" fill="#64748b">https://dheeraj-kumar.portfolio</text>
+
+    <!-- Navigation Bar inside browser -->
+    <rect x="25" y="52" width="70" height="16" rx="4" fill="#2563eb" />
+    <rect x="300" y="55" width="35" height="10" rx="3" fill="#94a3b8" />
+    <rect x="350" y="55" width="35" height="10" rx="3" fill="#94a3b8" />
+    <rect x="400" y="55" width="40" height="10" rx="3" fill="#94a3b8" />
+    <rect x="455" y="50" width="60" height="20" rx="10" fill="#2563eb" />
+
+    <!-- Hero Card Mockup -->
+    <rect x="25" y="80" width="490" height="110" rx="8" fill="url(#p4Hero)" />
+    <!-- Hero Text Lines -->
+    <rect x="45" y="98" width="80" height="10" rx="3" fill="#38bdf8" />
+    <rect x="45" y="115" width="200" height="18" rx="4" fill="#ffffff" />
+    <rect x="45" y="140" width="160" height="10" rx="3" fill="#94a3b8" />
+    <!-- Buttons -->
+    <rect x="45" y="158" width="75" height="18" rx="4" fill="#2563eb" />
+    <rect x="130" y="158" width="75" height="18" rx="4" fill="#334155" />
+    <!-- Avatar circle -->
+    <circle cx="450" cy="135" r="35" fill="url(#p4Grad)" />
+    <circle cx="450" cy="130" r="14" fill="#fed7aa" />
+    <path d="M 432 162 C 435 150 442 145 450 145 C 458 145 465 150 468 162 Z" fill="#ffffff" />
+
+    <!-- Skills & Projects Mini Grid -->
+    <g transform="translate(25, 205)">
+      <!-- Mini Card 1 -->
+      <rect width="115" height="105" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+      <rect x="12" y="14" width="30" height="30" rx="6" fill="#dbeafe" />
+      <rect x="12" y="54" width="70" height="10" rx="3" fill="#0f172a" />
+      <rect x="12" y="70" width="90" height="6" rx="2" fill="#cbd5e1" />
+      <rect x="12" y="84" width="80" height="8" rx="3" fill="#2563eb" />
+
+      <!-- Mini Card 2 -->
+      <g transform="translate(125, 0)">
+        <rect width="115" height="105" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+        <rect x="12" y="14" width="30" height="30" rx="6" fill="#dcfce7" />
+        <rect x="12" y="54" width="70" height="10" rx="3" fill="#0f172a" />
+        <rect x="12" y="70" width="90" height="6" rx="2" fill="#cbd5e1" />
+        <rect x="12" y="84" width="80" height="8" rx="3" fill="#10b981" />
+      </g>
+
+      <!-- Mini Card 3 -->
+      <g transform="translate(250, 0)">
+        <rect width="115" height="105" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+        <rect x="12" y="14" width="30" height="30" rx="6" fill="#e0e7ff" />
+        <rect x="12" y="54" width="70" height="10" rx="3" fill="#0f172a" />
+        <rect x="12" y="70" width="90" height="6" rx="2" fill="#cbd5e1" />
+        <rect x="12" y="84" width="80" height="8" rx="3" fill="#6366f1" />
+      </g>
+
+      <!-- Mini Card 4 -->
+      <g transform="translate(375, 0)">
+        <rect width="115" height="105" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+        <rect x="12" y="14" width="30" height="30" rx="6" fill="#fef3c7" />
+        <rect x="12" y="54" width="70" height="10" rx="3" fill="#0f172a" />
+        <rect x="12" y="70" width="90" height="6" rx="2" fill="#cbd5e1" />
+        <rect x="12" y="84" width="80" height="8" rx="3" fill="#f59e0b" />
+      </g>
+    </g>
+  </g>
+</svg>
